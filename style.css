@@ -1,0 +1,58 @@
+/* Estilo general Pag */
+
+
+
+/* Css Cards */
+.card{
+    width: 340px;
+    height: 140px;
+    margin: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+/* Css titulo */
+.container-titulo{
+    background-color: #728176;
+    color: #fff;
+    padding: 5px;
+}
+.container-titulo p{
+    margin: 0;
+}
+.imgCardDolar{
+    max-width: 37px;
+    max-height: 24px;
+}
+
+/* Css Body */
+.compra-venta{
+    background-color: #E4E8D1;
+    padding-top: 5px;
+}
+.compra-venta p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.precioCss{
+    background-color: #E4E8D1;
+    
+}
+.precioCss p{
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 8px;
+}
+.variaCss p {
+    font-size: 14px;
+    margin: 2px;
+}
+.fechaCss{
+    background-color: #728176;
+}
+.fechaCss p {
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+}
