@@ -162,6 +162,64 @@ function liqui(){
 
 
 
+/* Dolar Bolsa */
+function dolarBolsa(){ 
+    fetch(url)
+        .then(response=>response.json())
+        .then(data => {
+            bolsa.innerHTML = `
+            <div class"d-flex flex-column justify-content-center align-items-center p-0 m-0">
+                <div class="precioCss d-flex justify-content-evenly m-0">
+                    <div class="m-0 p-0">
+                        <p><b>$ ${data['4'].casa.compra }</b></p>
+                    </div>
+                </div>
+            
+                <div class="variaCss d-flex justify-content-center align-items-center m-0">
+                    <div>
+                        <p>VARIACIÓN: ${data['4'].casa.variacion}%</p>
+                    </div>
+                </div>
+                
+                <div class="fechaCss d-flex justify-content-center align-item-end m-0">
+                    <div>
+                        <p>ACTUALIZADO: ${date}  HORA: ${time}</p>
+                    </div>
+                </div>
+            </div>
+            `;
+        })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
